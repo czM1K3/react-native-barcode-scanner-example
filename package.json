@@ -1,5 +1,5 @@
 {
-  "name": "ReactNativeBarcodeScanner",
+  "name": "react-native-barcode-scanner",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -20,10 +20,13 @@
     "@babel/core": "^7.12.9",
     "@babel/runtime": "^7.12.5",
     "@react-native-community/eslint-config": "^2.0.0",
+    "@tsconfig/react-native": "^2.0.3",
+    "@types/jest": "^29.4.0",
+    "@types/react": "^18.0.27",
+    "@types/react-native": "^0.71.1",
+    "@types/react-test-renderer": "^18.0.0",
     "eslint": "^7.32.0",
-    "metro-react-native-babel-preset": "0.72.3"
-  },
-  "jest": {
-    "preset": "react-native"
+    "metro-react-native-babel-preset": "0.72.3",
+    "typescript": "^4.9.4"
   }
 }
